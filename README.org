@@ -1,0 +1,33 @@
+#+TITLE: Github UI Revert
+#+STARTUP: overview
+
+This Stylus addon "fixes" the June 2020 Github UI refresh.
+
+* TOC :TOC:
+- [[#changes][Changes]]
+  - [[#property-border-radius-is-0][Property =border-radius= is =0=.]]
+  - [[#uniform-width-for-various-elements][Uniform =width= for various elements]]
+  - [[#all-buttons-are-more-compact][All =buttons= are more compact.]]
+- [[#issues][Issues]]
+  - [[#width-of-the-directory-block-has-to-be-set-manually][Width of the directory block has to be set manually]]
+  - [[#search-results-show-the-left-sidebar-at-the-top][Search results show the left sidebar at the top]]
+  - [[#does-not-work-for-mobile-view][Does not work for mobile view.]]
+  - [[#depending-on-your-screen-and-scaling-ymmv][Depending on your screen and scaling, YMMV.]]
+
+* Changes
+** Property =border-radius= is =0=.
+My eyes couldn't take the corners well.
+** Uniform =width= for various elements
+Including the heinous top bar.
+** All =buttons= are more compact.
+Only the padding has been modified.
+
+* Issues
+** Width of the directory block has to be set manually
+Otherwise, the "about" sidebar disappears.
+** Search results show the left sidebar at the top
+Another tap of ~pagedown~.
+** Does not work for mobile view.
+And never will.
+** Depending on your screen and scaling, YMMV.
+This has only been tested on a 1080p monitor.
