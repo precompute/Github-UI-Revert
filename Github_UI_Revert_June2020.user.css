@@ -1,0 +1,73 @@
+:root {
+    --width: 1200px;
+}
+
+/* ************Border************ */
+* {
+    border-radius: 0 !important;
+    border-color: #99999911 !important;
+}
+
+/* ************Header************ */
+body:not(.project-full-screen), .is-stuck {
+    padding-top: 45px !important;
+}
+
+.Header {
+    padding-left: calc(50% - (var(--width) / 2)) !important;
+    padding-right: calc(50% - (var(--width) / 2))  !important;
+    height: 40px;
+}
+
+/* ************Width************ */
+
+/* For diff pages and the like */
+.container-xl {
+    max-width: var(--width) !important;
+}
+
+/* For the repo name and code/issue.. bar */
+.pagehead {
+    padding-left: calc(50% - (var(--width) / 2));
+    padding-right: calc(50% - (var(--width) / 2));
+    margin-bottom: 16px !important;
+    padding-top: 5px !important;
+}
+
+.UnderlineNav-item {
+    padding: 0px 12px 3px 6px;
+    border-color: #444 !important;
+    border-bottom: 0px;
+}
+
+/* Status bar above directory block */
+.Box-header {
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+/* Directory block */
+.col-md-9 {
+    /* width: calc(vmax - (var(--width) / 2)); */
+    width: 90%;
+}
+
+/* README block */
+.Box-body {
+    padding: 15px !important;
+}
+
+/* ************Buttons************ */
+.btn {
+    padding: 3px 7px;
+}
+
+/* Leftbar / Directory block spacing */
+.gutter-lg > [class*="col-"] {
+    padding-right: 0px !important;
+}
+
+.BorderGrid--spacious .BorderGrid-cell {
+    padding-top: 24px;
+    padding-bottom: 6px;
+}

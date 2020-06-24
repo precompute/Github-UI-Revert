@@ -3,11 +3,15 @@
 
 This Stylus addon "fixes" the June 2020 Github UI refresh.
 
+[[https://raw.githubusercontent.com/t-e-r-m/Github-UI-Revert/master/Github_UI_Revert_June2020.user.css][Install with Stylus]]
+
 * TOC :TOC:
 - [[#changes][Changes]]
   - [[#property-border-radius-is-0][Property =border-radius= is =0=.]]
   - [[#uniform-width-for-various-elements][Uniform =width= for various elements]]
+  - [[#reduced-height-for-various-elements][Reduced =height= for various elements]]
   - [[#all-buttons-are-more-compact][All =buttons= are more compact.]]
+  - [[#reduced-spacing-between-directory-and-about-block][Reduced spacing between =Directory= and =About= block]]
 - [[#issues][Issues]]
   - [[#width-of-the-directory-block-has-to-be-set-manually][Width of the directory block has to be set manually]]
   - [[#search-results-show-the-left-sidebar-at-the-top][Search results show the left sidebar at the top]]
@@ -19,8 +23,12 @@ This Stylus addon "fixes" the June 2020 Github UI refresh.
 My eyes couldn't take the corners well.
 ** Uniform =width= for various elements
 Including the heinous top bar.
+** Reduced =height= for various elements
++ Top Bar (Github logo and user controls)
++ Status bar above directory block
 ** All =buttons= are more compact.
 Only the padding has been modified.
+** Reduced spacing between =Directory= and =About= block
 
 * Issues
 ** Width of the directory block has to be set manually
