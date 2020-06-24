@@ -8,6 +8,7 @@ This [[https://github.com/openstyles/stylus][Stylus]] addon "fixes" the June 202
 * TOC :TOC:
 - [[#screenshots][Screenshots]]
   - [[#border-color-25117fed-and-directory-block-width-80][Border color =#25117fed= and directory block width =80%=]]
+  - [[#border-color-117f2de3-and-directory-block-width-94][Border color =#117f2de3= and directory block width =94%=]]
 - [[#changes][Changes]]
   - [[#property-border-radius-is-0][Property =border-radius= is =0=.]]
   - [[#uniform-width-for-various-elements][Uniform =width= for various elements]]
@@ -23,6 +24,8 @@ This [[https://github.com/openstyles/stylus][Stylus]] addon "fixes" the June 202
 * Screenshots
 ** Border color =#25117fed= and directory block width =80%=
 [[file:screenshots/githubUIRevert.png]]
+** Border color =#117f2de3= and directory block width =94%=
+[[file:screenshots/githubUIRevert2.png]]
 * Changes
 ** Property =border-radius= is =0=.
 My eyes couldn't take the corners well.
