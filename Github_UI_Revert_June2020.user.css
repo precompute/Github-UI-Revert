@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name         Github UI Revert June 2020
-@version      0.1
+@version      1.1.0
 @description  Revert the June 2020 Github UI mishap
 @namespace    t-e-r-m
 @author       t-e-r-m
@@ -66,7 +66,7 @@
     /* Directory block */
     .col-md-9 {
         /* width: calc(vmax - (var(--width) / 2)); */
-        width: var(dirblockwidth);
+        width: var(--dirblockwidth);
     }
 
     /* README block */
