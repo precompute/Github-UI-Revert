@@ -1,73 +1,91 @@
-:root {
-    --width: 1200px;
-}
+/* ==UserStyle==
+@name         Github UI Revert June 2020
+@version      0.1
+@description  Revert the June 2020 Github UI mishap
+@namespace    t-e-r-m
+@author       t-e-r-m
+@homepageURL  https://github.com/t-e-r-m/Github-UI-Revert
+@supportURL   https://github.com/t-e-r-m/Github-UI-Revert/issues
+@updateURL    https://github.com/t-e-r-m/Github-UI-Revert/raw/master/Github_UI_Revert_June2020.user.css
+@license      MIT
+@var range bordercolor "Border color" [0, 0, 360, 1, ""]
+@var range dirblockwidth "Directory block width" [90, "%"]
+==/UserStyle== */
 
-/* ************Border************ */
-* {
-    border-radius: 0 !important;
-    border-color: #99999911 !important;
-}
+@-moz-document domain("github.com"){
+    :root {
+        --width: 1200px;
+        --dirblockwidth: 90%;
+        --bordercolor: #99999911;
+    }
 
-/* ************Header************ */
-body:not(.project-full-screen), .is-stuck {
-    padding-top: 45px !important;
-}
+    /* ************Border************ */
+    * {
+        border-radius: 0 !important;
+        border-color: var(--bordercolor) !important;
+    }
 
-.Header {
-    padding-left: calc(50% - (var(--width) / 2)) !important;
-    padding-right: calc(50% - (var(--width) / 2))  !important;
-    height: 40px;
-}
+    /* ************Header************ */
+    body:not(.project-full-screen), .is-stuck {
+        padding-top: 45px !important;
+    }
 
-/* ************Width************ */
+    .Header {
+        padding-left: calc(50% - (var(--width) / 2)) !important;
+        padding-right: calc(50% - (var(--width) / 2))  !important;
+        height: 40px;
+    }
 
-/* For diff pages and the like */
-.container-xl {
-    max-width: var(--width) !important;
-}
+    /* ************Width************ */
 
-/* For the repo name and code/issue.. bar */
-.pagehead {
-    padding-left: calc(50% - (var(--width) / 2));
-    padding-right: calc(50% - (var(--width) / 2));
-    margin-bottom: 16px !important;
-    padding-top: 5px !important;
-}
+    /* For diff pages and the like */
+    .container-xl {
+        max-width: var(--width) !important;
+    }
 
-.UnderlineNav-item {
-    padding: 0px 12px 3px 6px;
-    border-color: #444 !important;
-    border-bottom: 0px;
-}
+    /* For the repo name and code/issue.. bar */
+    .pagehead {
+        padding-left: calc(50% - (var(--width) / 2));
+        padding-right: calc(50% - (var(--width) / 2));
+        margin-bottom: 16px !important;
+        padding-top: 5px !important;
+    }
 
-/* Status bar above directory block */
-.Box-header {
-    padding-top: 7px;
-    padding-bottom: 7px;
-}
+    .UnderlineNav-item {
+        padding: 0px 12px 3px 6px;
+        border-color: var(--bordercolor) !important;
+        border-bottom: 0px;
+    }
 
-/* Directory block */
-.col-md-9 {
-    /* width: calc(vmax - (var(--width) / 2)); */
-    width: 90%;
-}
+    /* Status bar above directory block */
+    .Box-header {
+        padding-top: 7px;
+        padding-bottom: 7px;
+    }
 
-/* README block */
-.Box-body {
-    padding: 15px !important;
-}
+    /* Directory block */
+    .col-md-9 {
+        /* width: calc(vmax - (var(--width) / 2)); */
+        width: var(dirblockwidth);
+    }
 
-/* ************Buttons************ */
-.btn {
-    padding: 3px 7px;
-}
+    /* README block */
+    .Box-body {
+        padding: 15px !important;
+    }
 
-/* Leftbar / Directory block spacing */
-.gutter-lg > [class*="col-"] {
-    padding-right: 0px !important;
-}
+    /* ************Buttons************ */
+    .btn {
+        padding: 3px 7px;
+    }
 
-.BorderGrid--spacious .BorderGrid-cell {
-    padding-top: 24px;
-    padding-bottom: 6px;
+    /* Leftbar / Directory block spacing */
+    .gutter-lg > [class*="col-"] {
+        padding-right: 0px !important;
+    }
+
+    .BorderGrid--spacious .BorderGrid-cell {
+        padding-top: 24px;
+        padding-bottom: 6px;
+    }
 }
