@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name         Github UI Revert June 2020
-@version      1.1.1
+@version      1.1.2
 @description  Revert the June 2020 Github UI mishap
 @namespace    t-e-r-m
 @author       t-e-r-m
@@ -9,7 +9,7 @@
 @updateURL    https://github.com/t-e-r-m/Github-UI-Revert/raw/master/Github_UI_Revert_June2020.user.css
 @license      MIT
 @var color bordercolor "Border color" #999999
-@var range dirblockwidth "Directory block width" [90, 20, 150, 5, "%"]
+@var range dirblockwidth "Directory block width" [90, 20, 150, 2, "%"]
 ==/UserStyle== */
 
 @-moz-document domain("github.com"){
