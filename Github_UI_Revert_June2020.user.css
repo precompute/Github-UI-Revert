@@ -8,8 +8,8 @@
 @supportURL   https://github.com/t-e-r-m/Github-UI-Revert/issues
 @updateURL    https://github.com/t-e-r-m/Github-UI-Revert/raw/master/Github_UI_Revert_June2020.user.css
 @license      MIT
-@var range bordercolor "Border color" [0, 0, 360, 1, ""]
-@var range dirblockwidth "Directory block width" [90, "%"]
+@var color bordercolor "Border color" #99999911
+@var range dirblockwidth "Directory block width" [90, 20, 150, 5, "%"]
 ==/UserStyle== */
 
 @-moz-document domain("github.com"){
