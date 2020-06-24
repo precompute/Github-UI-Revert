@@ -1,11 +1,13 @@
 #+TITLE: Github UI Revert
 #+STARTUP: overview
 
-This Stylus addon "fixes" the June 2020 Github UI refresh.
+This [[https://github.com/openstyles/stylus][Stylus]] addon "fixes" the June 2020 Github UI refresh.
 
 [[https://raw.githubusercontent.com/t-e-r-m/Github-UI-Revert/master/Github_UI_Revert_June2020.user.css][Install with Stylus]]
 
 * TOC :TOC:
+- [[#screenshots][Screenshots]]
+  - [[#border-color-25117fed-and-directory-block-width-80][Border color =#25117fed= and directory block width =80%=]]
 - [[#changes][Changes]]
   - [[#property-border-radius-is-0][Property =border-radius= is =0=.]]
   - [[#uniform-width-for-various-elements][Uniform =width= for various elements]]
@@ -18,6 +20,9 @@ This Stylus addon "fixes" the June 2020 Github UI refresh.
   - [[#does-not-work-for-mobile-view][Does not work for mobile view.]]
   - [[#depending-on-your-screen-and-scaling-ymmv][Depending on your screen and scaling, YMMV.]]
 
+* Screenshots
+** Border color =#25117fed= and directory block width =80%=
+[[file:screenshots/githubUIRevert.png]]
 * Changes
 ** Property =border-radius= is =0=.
 My eyes couldn't take the corners well.
