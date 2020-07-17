@@ -22,6 +22,7 @@ This [[https://github.com/openstyles/stylus][Stylus]] addon "fixes" the June 202
   - [[#depending-on-your-screen-and-scaling-ymmv][Depending on your screen and scaling, YMMV.]]
 - [[#log][Log]]
   - [[#20-06-30][[20-06-30]]]
+  - [[#20-07-17][[20-07-17]]]
 
 * Screenshots
 ** Border color =#25117fed= and directory block width =80%=
@@ -53,3 +54,5 @@ This has only been tested on a 1080p monitor.
 * Log
 ** [20-06-30]
 Looks like Github changed the top bar's width. Doesn't affect the theme, which has a narrower top bar anyway.
+** [20-07-17]
+Github stopped using =pagehead=, so I've included a hacky workaround. It works for me, please open an issue if it doesn't for you.
