@@ -5,6 +5,8 @@ This [[https://github.com/openstyles/stylus][Stylus]] addon "fixes" the June 202
 
 [[https://raw.githubusercontent.com/t-e-r-m/Github-UI-Revert/master/Github_UI_Revert_June2020.user.css][Install with Stylus]]
 
+*This theme should be used with the [[https://github.com/StylishThemes/GitHub-FixedHeader][Github Fixed Header plugin]].*
+
 * TOC :TOC:
 - [[#screenshots][Screenshots]]
   - [[#border-color-25117fed-and-directory-block-width-80][Border color =#25117fed= and directory block width =80%=]]
@@ -20,6 +22,7 @@ This [[https://github.com/openstyles/stylus][Stylus]] addon "fixes" the June 202
   - [[#search-results-show-the-left-sidebar-at-the-top][Search results show the left sidebar at the top]]
   - [[#does-not-work-for-mobile-view][Does not work for mobile view.]]
   - [[#depending-on-your-screen-and-scaling-ymmv][Depending on your screen and scaling, YMMV.]]
+  - [[#i-dont-want-to-use-the-fixed-header-plugin][I don't want to use the fixed header plugin!]]
 - [[#log][Log]]
   - [[#20-06-30][[20-06-30]]]
   - [[#20-07-17][[20-07-17]]]
@@ -50,6 +53,15 @@ Another tap of ~pagedown~.
 And never will.
 ** Depending on your screen and scaling, YMMV.
 This has only been tested on a 1080p monitor.
+** I don't want to use the fixed header plugin!
+If you don't, there will be padding at the very top of the page. Set the following to =0= to remove it.
+
+#+begin_src css
+/* ************Header************ */
+body:not(.project-full-screen), .is-stuck {
+    padding-top: 45px !important;
+}
+#+end_src
 
 * Log
 ** [20-06-30]
